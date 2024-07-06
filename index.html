@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <!-- start--bg-[#1B3936] w-[1440px] h-[8933px] -->
+
+  <body class="relative bg-[#1B3936] flex flex-col items-center">
+    <main
+      class="absolute w-[1440px] h-[900px] rounded-xl bg-[#101010] top-[20px]"
+    >
+      <div
+        class="relative w-[1440px] h-[900px] rounded-xl bg-[#101010] flex flex-row items-center justify-between"
+      >
+        <!-- sidebar start -->
+        <div class="absolute w-[197px] h-[651px] top-[65px] left-[80px]">
+          <img src="./Images/Profile.png" alt="Profile" />
+          <div
+            class="absolute w-[29px] h-[29px] top-[-9px] left-[55px] bg-red-400 rounded-full text-white flex items-center justify-center text-center"
+          >
+            <p class="text-center font-poppins text-[13px]">9</p>
+          </div>
+          <div class="absolute top-[92px]">
+            <h1
+              class="font-poppins font-[600] text-[30px] leading-[2] text-[#FFFFFF]"
+            >
+              Samantha
+            </h1>
+            <h3
+              class="font-poppins font-[400] text-[17px] leading-[1] text-[#FFFFFF] text-opacity-50"
+            >
+              samantha@email.com
+            </h3>
+          </div>
+        </div>
+        <!-- menu start-->
+        <div
+          class="absolute w-[142px] h-[360px] top-[357px] left-[80px] flex flex-col justify-between"
+        >
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-50"
+          >
+            Dashboard
+          </h1>
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-100"
+          >
+            Expenses
+          </h1>
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-50"
+          >
+            Wallets
+          </h1>
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-50"
+          >
+            Summary
+          </h1>
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-50"
+          >
+            Accounts
+          </h1>
+          <h1
+            class="font-poppins font-[600] text-[25px] text-[#FFFFFF] text-opacity-50"
+          >
+            Settings
+          </h1>
+        </div>
+        <!-- menu end-->
+        <!-- sidebar end -->
+        <!-- content start -->
+        <div
+          class="absolute left-[360px] w-[1060px] h-[860px] top-[20px] bg-[#FFFFFF] rounded-3xl"
+        >
+          <!-- main content start -->
+          <div
+            class="absolute w-[510px] h-[741px] top-[50px] left-[40px] flex flex-col"
+          >
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-col">
+                <h1 class="font-poppins font-[600] text-[40px]">Expenses</h1>
+                <p class="font-poppins font-[400] text-[16px]">
+                  01 - 25 March, 2020
+                </p>
+              </div>
+              <div class="relative flex flex-row top-[15px]">
+                <div class="w-[31px] h-[31px] rounded-full bg-black"></div>
+                <div class="w-[31px] h-[31px] rounded-full bg-black"></div>
+                <div class="w-[31px] h-[31px] rounded-full bg-black"></div>
+              </div>
+            </div>
+            <div class="absolute w-[510px] h-[60px] top-[120px]">
+              <img src="./Images/Stats.png" alt="Stats" />
+            </div>
+            <div class="absolute top-[200px]">
+              <div class="flex flex-col justify-between py-[20px]">
+                <div class="flex flex-row items-center justify-between pb-3">
+                  <h1 class="font-avenir">Today</h1>
+                  <img
+                    class="w-[25px] h-[5px]"
+                    src="./Images/Group 3.png"
+                    alt="Group-3"
+                  />
+                </div>
+                <div class="w-[500px] h-[1px] bg-[#DEDEDE]"></div>
+              </div>
+              <!-- <h1 class="py-[20px] font-avenir">Today</h1> -->
+              <div class="flex flex-col gap-5">
+                <div
+                  class="w-[500px] h-[49px] flex flex-row items-center justify-between"
+                >
+                  <div class="flex flex-row gap-x-5">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      src="./Images/Group 4.png"
+                      alt="Group-icon"
+                    />
+                    <div>
+                      <h1 class="font-poppins font-[600] text-[16px]">
+                        Grocery
+                      </h1>
+                      <p class="font-poppins font-[400] text-[14px]">
+                        5:12 pm • Belanja di pasar
+                      </p>
+                    </div>
+                  </div>
+                  <h1 class="font-poppins font-[600] text-[16px]">-326.800</h1>
+                </div>
+                <div
+                  class="w-[500px] h-[49px] flex flex-row items-center justify-between"
+                >
+                  <div class="flex flex-row gap-x-5">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      src="./Images/Group 4(1).png"
+                      alt="Group-icon"
+                    />
+                    <div>
+                      <h3 class="font-poppins font-[600] text-[16px]">
+                        Transportation
+                      </h3>
+                      <p class="font-poppins font-[400] text-[14px]">
+                        5:12 pm • Naik bus umum
+                      </p>
+                    </div>
+                  </div>
+                  <h1 class="font-poppins font-[600] text-[16px]">-15.000</h1>
+                </div>
+                <div
+                  class="w-[500px] h-[49px] flex flex-row items-center justify-between"
+                >
+                  <div class="flex flex-row gap-x-5">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      src="./Images/Group 4(2).png"
+                      alt="Group-icon"
+                    />
+                    <div>
+                      <h3 class="font-poppins font-[600] text-[16px]">
+                        Housing
+                      </h3>
+                      <p class="font-poppins font-[400] text-[14px]">
+                        5:12 pm • Bayar Listrik
+                      </p>
+                    </div>
+                  </div>
+                  <h1 class="font-poppins font-[600] text-[16px]">-185.750</h1>
+                </div>
+                <!-- <div class="w-[500px] h-[49px] bg-red-300"></div>
+                <div class="w-[500px] h-[49px] bg-red-300"></div> -->
+              </div>
+            </div>
+            <div class="absolute top-[535px] flex flex-col">
+              <div class="flex flex-col justify-between py-[20px]">
+                <div class="flex flex-row items-center justify-between pb-3">
+                  <h1 class="font-avenir">Monday, 23 March 2020</h1>
+                  <img
+                    class="w-[25px] h-[5px]"
+                    src="./Images/Group 3.png"
+                    alt="Group-3"
+                  />
+                </div>
+                <div class="w-[500px] h-[1px] bg-[#DEDEDE]"></div>
+              </div>
+              <div class="flex flex-col gap-5">
+                <div
+                  class="w-[500px] h-[49px] flex flex-row items-center justify-between"
+                >
+                  <div class="flex flex-row gap-x-5">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      src="./Images/Group 4(3).png"
+                      alt="Group-icon"
+                    />
+                    <div>
+                      <h1 class="font-poppins font-[600] text-[16px]">
+                        Food and Drink
+                      </h1>
+                      <p class="font-poppins font-[400] text-[14px]">
+                        5:12 pm • Makan Steak
+                      </p>
+                    </div>
+                  </div>
+                  <h1 class="font-poppins font-[600] text-[16px]">-156.000</h1>
+                </div>
+                <div
+                  class="w-[500px] h-[49px] flex flex-row items-center justify-between"
+                >
+                  <div class="flex flex-row gap-x-5">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      src="./Images/Group 4(4).png"
+                      alt="Group-icon"
+                    />
+                    <div>
+                      <h1 class="font-poppins font-[600] text-[16px]">
+                        Entertainment
+                      </h1>
+                      <p class="font-poppins font-[400] text-[14px]">
+                        5:12 pm • Nonton Bioskop
+                      </p>
+                    </div>
+                  </div>
+                  <h1 class="font-poppins font-[600] text-[16px]">-35.200</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- main content end -->
+          <!-- Right Content start --bg-[#F9FAFC]-->
+          <div
+            class="absolute w-[350px] h-[860px] left-[710px] bg-[#F9FAFC] rounded-r-3xl flex flex-col items-center"
+          >
+            <div
+              class="absolute w-[250px] h-[365px] top-[76px] flex flex-col gap-7"
+            >
+              <h1 class="font-avenir text-[20px]">Where your money go?</h1>
+              <div class="w-[250px] h-[37px]">
+                <div class="flex flex-row justify-between">
+                  <h1 class="font-poppins font-[600] text-[13px]">
+                    Food and Drinks
+                  </h1>
+                  <h1 class="font-poppins font-[400] text-[13px]">872.400</h1>
+                </div>
+
+                <div
+                  class="w-[250px] bg-[#ECEFF5] rounded-full h-[5px] mt-[7px]"
+                >
+                  <div class="bg-[#31BA96] w-[70px] h-[5px] rounded-full"></div>
+                </div>
+              </div>
+              <div class="w-[250px] h-[37px]">
+                <div class="flex flex-row justify-between">
+                  <h1 class="font-poppins font-[600] text-[13px]">
+                    Food and Drinks
+                  </h1>
+                  <h1 class="font-poppins font-[400] text-[13px]">872.400</h1>
+                </div>
+
+                <div
+                  class="w-[250px] bg-[#ECEFF5] rounded-full h-[5px] mt-[7px]"
+                >
+                  <div class="bg-[#31BA96] w-[70px] h-[5px] rounded-full"></div>
+                </div>
+              </div>
+              <div class="w-[250px] h-[37px]">
+                <div class="flex flex-row justify-between">
+                  <h1 class="font-poppins font-[600] text-[13px]">
+                    Food and Drinks
+                  </h1>
+                  <h1 class="font-poppins font-[400] text-[13px]">872.400</h1>
+                </div>
+
+                <div
+                  class="w-[250px] bg-[#ECEFF5] rounded-full h-[5px] mt-[7px]"
+                >
+                  <div class="bg-[#31BA96] w-[70px] h-[5px] rounded-full"></div>
+                </div>
+              </div>
+              <div class="w-[250px] h-[37px]">
+                <div class="flex flex-row justify-between">
+                  <h1 class="font-poppins font-[600] text-[13px]">
+                    Food and Drinks
+                  </h1>
+                  <h1 class="font-poppins font-[400] text-[13px]">872.400</h1>
+                </div>
+
+                <div
+                  class="w-[250px] bg-[#ECEFF5] rounded-full h-[5px] mt-[7px]"
+                >
+                  <div class="bg-[#31BA96] w-[70px] h-[5px] rounded-full"></div>
+                </div>
+              </div>
+              <div class="w-[250px] h-[37px]">
+                <div class="flex flex-row justify-between">
+                  <h1 class="font-poppins font-[600] text-[13px]">
+                    Food and Drinks
+                  </h1>
+                  <h1 class="font-poppins font-[400] text-[13px]">872.400</h1>
+                </div>
+
+                <div
+                  class="w-[250px] bg-[#ECEFF5] rounded-full h-[5px] mt-[7px]"
+                >
+                  <div class="bg-[#31BA96] w-[70px] h-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute w-[250px] h-[261px] top-[558px] flex flex-col items-center bg-[#EDF0F6] rounded-2xl"
+            >
+              <div
+                class="absolute w-[250px] top-[-40px] flex flex-row justify-around"
+              >
+                <img src="./Images/Illustration.png" alt="Illustration" />
+                <img src="./Images/Illustration(1).png" alt="Illustration-1" />
+              </div>
+              <div class="absolute w-[200px] top-[80px]">
+                <h1 class="font-poppins font-[600] text-[16px] mb-2">
+                  Save more money
+                </h1>
+                <p class="font-poppins font-[400] text-[12px]">
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim.
+                </p>
+              </div>
+              <div
+                class="absolute w-[200px] h-[45px] bg-black rounded-2xl top-[190px] flex items-center justify-center text-center"
+              >
+                <h1
+                  class="font-poppins font-[600] text-[13px] uppercase text-[#FFFFFF]"
+                >
+                  VIEW TIPS
+                </h1>
+              </div>
+            </div>
+          </div>
+          <!-- Right Content end -->
+        </div>
+        <!-- content end -->
+      </div>
+    </main>
+  </body>
+</html>
